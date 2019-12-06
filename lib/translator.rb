@@ -21,7 +21,7 @@ def get_japanese_emoticon(file_path = './lib/emoticons.yml', english_emoticon) #
   library = load_library(file_path)
 
   if library[:get_emoticon].include?(english_emoticon)  #how does #english emoticon argument know exactly what to bring into the #parenthesis here?
-  library[:get_emoticon][english_emoticon]  #at the key of #get_emoticon at the key of english_emotic
+  library[:get_emoticon][english_emoticon]  #library at the key of #get_emoticon at the key of english_emotic
   
 else 
    "Sorry, that emoticon was not found"
